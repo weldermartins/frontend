@@ -6,6 +6,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { HelloComponent } from './hello/hello.component';
 import { NomecomponentComponent } from './nomecomponent/nomecomponent.component';
+import { FormsModule } from '@angular/forms';
 
 //decorator
 @NgModule({
@@ -17,7 +18,8 @@ import { NomecomponentComponent } from './nomecomponent/nomecomponent.component'
   ],
   
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   //component principal deste projeto.
